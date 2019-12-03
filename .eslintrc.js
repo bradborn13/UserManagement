@@ -17,9 +17,8 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    indent: ['error', 4],
-    'linebreak-style': ['error', 'windows'],
-    quotes: ['error', 'single'],
-    semi: ['error', 'always']
+    'linebreak-style': 0,
+    'global-require': 0,
+    'eslint linebreak-style': [0, 'error', 'windows']
   }
 };
